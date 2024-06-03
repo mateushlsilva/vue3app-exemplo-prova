@@ -57,7 +57,7 @@
   }
 
   async function buscarEntregas() {
-    entregas.value = (await axios.get("entrega")).data;
+    entregas.value = (await axios.get("vocabulo")).data;
   }
 
   onMounted(() => {
